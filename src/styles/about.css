@@ -1,0 +1,165 @@
+.mainabt-cont{
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 50px;
+  box-shadow: rgba(17,12,46,0.15) 0px 48px 100px 0px;
+  width: max-content;
+  margin-top: 50px;
+  margin-left: 3rem;
+  margin-right: 2rem;
+  justify-content: center;
+  display: block;
+} 
+.searchabt_bar{
+  width: 40%;
+}
+.form__group{
+  font-size: 2rem;
+  color: var(--primary-color);
+  display: block;
+}
+
+.form__group input{
+  border: none;
+  font-size: 1rem;
+  color: var(--heading-color);
+  display: block;
+}
+.form__group input:focus{
+ outline:none
+
+}
+.form__group-fast input{
+  border: none;
+ 
+  font-size: 1rem;
+  color: var(--heading-color);
+  display: block;
+}
+.form__group h5{
+  margin-bottom: 0;
+}
+.form__group-fast{
+  border-right: 2px solid #ddd;
+}
+.ri-calendar-check-line ,.ri-map-pin-line ,.ri-group-line{
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+.search__icon{
+  font-size: 2rem;
+  padding: 1rem;
+  margin-left: 4rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 0px 10px 10px 10px ;
+  align-items: center;
+  border:0;
+  outline: 0;
+  size: 2rem;
+  
+}
+.mainabt-cont {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  width: max-content;
+  margin-top: 50px;
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+
+.searchabt__bar {
+  flex: 1; /* Take remaining space */
+  margin-right: 1rem; /* Add spacing between searchbar and data */
+}
+
+/* .descripabt {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.descripabt > div {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.descripabt h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: var(--heading-color);
+ 
+ 
+}
+
+.descripabt img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+}
+
+.descripabt address {
+  font-size: 1rem;
+  color: var(--heading-color);
+  margin-top: 0.5rem;
+}
+.descripabt address p{
+  line-height: 15px;
+} */
+/* Apply CSS to the hotel results container */
+.result-item {
+
+border: 1px solid var(--primary-color);
+border-radius: 10px;
+padding: 1rem;
+margin-bottom: 1rem;
+margin-left: 5rem;
+margin-right: 5rem;
+}
+
+.result-item h2 {
+text-align: center;
+font-size: 1.5rem;
+text-transform: uppercase;
+color: var(--heading-color);
+margin-bottom: 1rem;
+margin-left: 1rem;
+margin-right: 2rem;
+
+}
+
+.result-item address {
+font-size: 1rem;
+color: var(--heading-color);
+margin-top: 0.5rem;
+}
+.result-item address p{
+line-height: 15px;
+}
+.result-item .linkprovider p {
+font-size: 1.2rem;
+color: var(--heading-color);
+margin-top: 1.8rem;
+margin-bottom: 0.7rem;
+margin-left: 0.7rem;
+margin-right: 1rem;
+display: flex;
+}
+.result-item .linkprovider button{
+border: 1px solid var(--primary-color);
+border-radius: 10px;
+padding: 0.2rem;
+margin-top: 0.1rem;
+margin-bottom: 0.7rem;
+margin-left: 0.7rem;
+margin-right: 1rem;
+display: flex;
+}
+
